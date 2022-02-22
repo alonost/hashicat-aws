@@ -130,6 +130,7 @@ resource "aws_instance" "hashicat" {
     Name = "${var.prefix}-hashicat-instance"
     Developers = "devops"
     Billable = true
+    Department = "Operations"
   }
 }
 
